@@ -18,3 +18,4 @@ def kernel(input_ptrs, output_ptrs, strides, ..., BLOCK_SIZE: tl.constexpr):
 ## Files
 
 - `vector_add.ipynb` - Element-wise vector addition showing basic load/store and masking
+- `fused_softmax.ipynb` - Memory-bound softmax with occupancy tuning, persistent kernels, and benchmarking
